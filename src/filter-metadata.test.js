@@ -59,8 +59,8 @@ const nullMetadata = {
 };
 const specialCharacterEx1 = {
   ...nullMetadata,
-  // kilolight-year
-  description: "One kilolight-year away",
+  // well-being
+  description: "well-being",
 };
 const specialCharacterEx2 = {
   ...nullMetadata,
@@ -125,10 +125,10 @@ describe("filter-metadata.js - filterMetadata()", () => {
   });
   test("Multiple words", () => {
     expect(
-      metadataArraysEqual(
-        filterMetadata(metadataArray, "WELCOME TO THE INTERNET"),
-        [exampleMetadata4, exampleMetadata5]
-      )
+      metadataArraysEqual(filterMetadata(metadataArray, "WELCOME INTERNET"), [
+        exampleMetadata4,
+        exampleMetadata5,
+      ])
     ).toBe(true);
   });
   test("Multiple words: 3 results", () => {
@@ -148,7 +148,7 @@ describe("filter-metadata.js - filterMetadata()", () => {
     ).toBe(true);
   });
   test("Hypenated word: direct match", () => {
-    expect(filterMetadata(mdSpecialCharactersArray, "kilolight-year")).toEqual([
+    expect(filterMetadata(mdSpecialCharactersArray, "well-being")).toEqual([
       specialCharacterEx1,
     ]);
   });
