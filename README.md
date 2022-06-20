@@ -110,7 +110,11 @@ When you're done and ready to submit your code in the application, follow these 
 2. Remove the remote origin with: `git remote rm origin`
 3. Add the remote origin of your new repo with: `git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git`
 4. Push your code to your new repo with: `git push -u origin master` (or `main` or whatever your preferred branch name is)
-5. Copy the URL to your repo and add it to the application (https://github.com/YOUR-USERNAME/YOUR-REPO-NAME). (If you wish to keep your new repo private, you must add me, `davidhartsough`, as a collaborator: https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/access)
+5. I recommend that you keep this repo private, so you'll have to add me, `davidhartsough`, as a as a collaborator: https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/access
+
+Once you've done all of that, please email me and Flo with the URL to your repo (https://github.com/YOUR-USERNAME/YOUR-REPO-NAME)
+
+To: david@thoughtsaver.com, florence@thoughtsaver.com
 
 ## Linting/Formatting
 
