@@ -123,7 +123,7 @@ const htmlExOneKeyword = `
     <meta property="og:type" content="article">
     <meta property="og:title" content="Human behavior makes more sense when you understand "Anchor Beliefs"">
     <meta property="og:url" content="https://www.spencergreenberg.com/2021/11/human-behavior-makes-more-sense-when-you-understand-anchor-beliefs/">
-    <meta property="og:description" content="There's an important type of belief most of us have, which we call "Anchor Beliefs." These beliefs are, by definition, those beliefs we hold that are almost impossible to change. …">
+    <meta property="og:description" content="There's an important type of belief most of us have, which we call Anchor Beliefs.">
     <meta property="article:published_time" content="2021-11-21T15:31:00+00:00">
     <meta property="article:modified_time" content="2021-12-24T23:25:15+00:00">
     <meta property="og:site_name" content="Spencer Greenberg">
@@ -261,7 +261,7 @@ describe("get-metadata.js - getMetadata()", () => {
       title:
         'Human behavior makes more sense when you understand "Anchor Beliefs" - Spencer Greenberg',
       description:
-        "There's an important type of belief most of us have, which we call ",
+        "There's an important type of belief most of us have, which we call Anchor Beliefs.",
       keywords: ["anchor beliefs"],
       author: "Spencer Greenberg",
       siteName: "Spencer Greenberg",
