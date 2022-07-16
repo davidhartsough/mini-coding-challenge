@@ -120,3 +120,17 @@ To: david@thoughtsaver.com, florence@thoughtsaver.com
 
 - [ESLint](https://eslint.org/) - linting
 - [Prettier](https://prettier.io/) - formatting
+
+As you complete the challenge, you are encouraged to lint and format your code.
+
+In the root project directory, you can run the following scripts:
+
+```bash
+npm run lint
+```
+
+Or, to let eslint try to fix your code according to the linter and formatter standards, run:
+
+```bash
+npm run lint:fix
+```

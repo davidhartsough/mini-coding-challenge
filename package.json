@@ -12,7 +12,9 @@
   },
   "scripts": {
     "test": "jest",
-    "test:watch": "jest -o --watch"
+    "test:watch": "jest -o --watch",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
   },
   "license": "ISC",
   "keywords": [
